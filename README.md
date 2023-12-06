@@ -54,6 +54,15 @@ Follow these steps to run the application on your local machine.
    ```
    The application should be accessible at http://localhost:3000.
 
+## Building for Production
+
+To build the application for production, run:
+
+   ```bash 
+   npm run build
+   ```
+   This command will generate optimized and minified assets in the **'dist'** directory.
+
 ## Running Tests with Cypress
 
 To run end-to-end tests using Cypress, follow these steps:
